@@ -2,12 +2,12 @@ from flask import Flask, url_for
 import networkx as nx
 from networkx.drawing.nx_agraph import write_dot
 import pydot
-import citadel_utilities as cu
+import utilities as cu
 
 app = Flask(__name__)
 
 
-@app.route('/citadel/<user>')
+@app.route('/graph-builder/<user>')
 def user(user):
     """Makes user's connection graph and draws to server.
 	
