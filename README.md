@@ -4,8 +4,6 @@ Breadth-first-search implementation for building generic graphs between nodes ac
 * Designed for Python Flask and SQL compatability.
 * Connection types are colored red, blue, or green.
 
-*Note: SQL queries and engine connection removed from `graph_builder_utilities.py`*
-
 ## About this repository
 
 **Implementation**
@@ -14,3 +12,7 @@ Breadth-first-search implementation for building generic graphs between nodes ac
 
 **Output**
 * `*.svg`: Example output graphs
+
+***
+
+*Note: SQL queries and engine connection removed from `graph_builder_utilities.py`*
