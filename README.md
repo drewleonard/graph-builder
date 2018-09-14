@@ -1,5 +1,5 @@
 # graph-builder
-Breadth-first-search implementation for building generic graphs between nodes across backend data.
+Breadth-first-search implementation for building generic graphs between nodes across relational data.
 
 * Designed for Python Flask and SQL compatability.
 * Connection types are colored red, blue, or green.
