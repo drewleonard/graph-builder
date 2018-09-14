@@ -2,7 +2,7 @@ from flask import Flask, url_for
 import networkx as nx
 from networkx.drawing.nx_agraph import write_dot
 import pydot
-import utilities as cu
+import graph_builder_utilities as cu
 
 app = Flask(__name__)
 
